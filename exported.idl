@@ -1,0 +1,9 @@
+namespace fnsln
+{
+    [default_interface]
+    runtimeclass exported : Windows.UI.Xaml.Controls.Page
+    {
+        exported();
+        Int32 MyProperty;
+    }
+}
